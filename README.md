@@ -84,7 +84,7 @@ Eres un **Cazador de Tesoros** atrapado en la mansión embrujada del *Conde Algo
 
 ## 📝 Entregable
 
-Al finalizar los 90 minutos, debes tener un archivo `.js` que, al ejecutarse, narre en la consola la historia de tu escape paso a paso con los valores numéricos calculados.
+Al finalizar debes tener un archivo `.js` que, al ejecutarse, narre en la consola la historia de tu escape paso a paso con los valores numéricos calculados.
 
 **Ejemplo de salida esperada:**
 
