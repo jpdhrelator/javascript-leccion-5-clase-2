@@ -72,26 +72,3 @@ let amplitud = 50;
 
 let posicionX = Math.sin(tiempo) * amplitud;
 let posicionY = Math.cos(tiempo) * amplitud;
-
-console.log("Posición X:", posicionX.toFixed(2));
-console.log("Posición Y:", posicionY.toFixed(2));
-
-/* Si es que el tiempo fuera un numero aleatorio, podria perder, pero aqui siempre me salvo */ 
-
-if (Math.abs(posicionX) < 10) {
-  console.log("¡Pasaste a salvo del péndulo!");
-} else {
-  console.log("¡El péndulo te golpeó!");
-}
-
-// FASE 5: PUNTAJE FINAL
-console.log("\n Calculando puntaje final...");
-
-let puntajeFinal = (jugador.cordura * Math.PI) + jugador.tesoro;
-
-console.log("Versión Juez:", Math.round(puntajeFinal));
-console.log("Versión Optimista:", Math.ceil(puntajeFinal));
-console.log("Versión Solo Enteros:", Math.trunc(puntajeFinal));
-
-console.log("\n Estado final del jugador:");
-console.log(jugador);
